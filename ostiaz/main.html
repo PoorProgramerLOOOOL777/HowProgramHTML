@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de HTML y CSS</title>
+    <link rel="stylesheet" href="stilesheet.css">
+</head>
+<body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="topbar">
+        <div class="logo">WEB<span>LAB</span></div>
+        <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#animaciones">Animaciones</a>
+        </nav>
+    </header>
+
+    <main class="container" id="inicio">
+        <section class="hero card">
+            <div class="hero-text">
+                <p class="badge">HTML + CSS + ANIMACIONES</p>
+                <h1>Fundamentos de programación web modernos</h1>
+                <p class="lead">HTML crea la estructura, CSS define el estilo, y las animaciones dan vida a la experiencia visual del sitio.</p>
+                <div class="actions">
+                    <a href="#html" class="btn btn-primary">Ver fundamentos</a>
+                    <a href="#animaciones" class="btn btn-secondary">Ver animaciones</a>
+                </div>
+                <div class="stats">
+                    <div>
+                        <strong>HTML</strong>
+                        <span>estructura</span>
+                    </div>
+                    <div>
+                        <strong>CSS</strong>
+                        <span>estilo</span>
+                    </div>
+                    <div>
+                        <strong>UI</strong>
+                        <span>interacción</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <pre><code>&lt;section&gt;
+  &lt;h1&gt;Hola, mundo&lt;/h1&gt;
+  &lt;p&gt;Diseño web&lt;/p&gt;
+  &lt;button&gt;Explorar&lt;/button&gt;
+&lt;/section&gt;</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-grid" id="html">
+            <div class="section-title">
+                <p class="mini-label">HTML</p>
+                <h2>Base estructural del contenido</h2>
+            </div>
+
+            <div class="cards">
+                <article class="info-card">
+                    <h3>Etiquetas</h3>
+                    <p>Permiten organizar títulos, párrafos, listas, imágenes, enlaces y secciones dentro de la página.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Semántica</h3>
+                    <p>Elementos como header, main, section y footer ayudan a describir mejor el contenido y la accesibilidad.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Formularios</h3>
+                    <p>Los inputs, botones y selects permiten captar información del usuario y crear interacciones reales.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-grid" id="css">
+            <div class="section-title">
+                <p class="mini-label">CSS</p>
+                <h2>Estilo, diseño y experiencia visual</h2>
+            </div>
+
+            <div class="cards">
+                <article class="info-card">
+                    <h3>Colores y tipografía</h3>
+                    <p>Controlas la apariencia con variables, paletas, tamaños y fuentes para mejorar la legibilidad.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Layout</h3>
+                    <p>Usas flexbox, grid y responsive design para crear interfaces ordenadas en cualquier pantalla.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Sombras y bordes</h3>
+                    <p>Los bordes redondeados, sombras soft y degradados hacen que la interfaz se vea más profesional.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-grid" id="animaciones">
+            <div class="section-title">
+                <p class="mini-label">ANIMACIONES</p>
+                <h2>Movimiento que hace más agradable la web</h2>
+            </div>
+
+            <div class="cards animation-cards">
+                <article class="anim-card">
+                    <div class="dot pulse"></div>
+                    <h3>Transiciones</h3>
+                    <p>Los cambios suaves al pasar el mouse hacen que cada elemento responda mejor.</p>
+                </article>
+                <article class="anim-card">
+                    <div class="dot orbit"></div>
+                    <h3>Keyframes</h3>
+                    <p>Permiten crear movimientos más complejos como entradas, giros y efectos de parpadeo.</p>
+                </article>
+                <article class="anim-card">
+                    <div class="dot float"></div>
+                    <h3>Interactive UI</h3>
+                    <p>Con animación y hover, cada botón y tarjeta se vuelve más dinámico y moderno.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
